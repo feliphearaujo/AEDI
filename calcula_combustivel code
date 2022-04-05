@@ -1,0 +1,7 @@
+
+val_abs = float(input('Digite o valor do abastecimento: '))
+val_litro = float(input("Digite o valor do litro do combustível: "))
+
+qtd_litros = val_abs / val_litro 
+
+print('A quantidade de litros total é: % .2f' % qtd_litros)
